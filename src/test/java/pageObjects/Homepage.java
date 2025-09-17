@@ -23,6 +23,15 @@ public class Homepage extends Basepage{
 	@FindBy(xpath="//button[text()=\"Logout\"]")
 	WebElement link_logout;
 	
+	@FindBy(xpath="//a[text()=\" Master \"] ")
+	WebElement lnk_Masterform;
+	
+	@FindBy(xpath="//a[text()=\" Equipment \"] ")
+	WebElement lnk_EquipmentMaster;
+	
+	@FindBy(xpath="//a[text()=\" Unit \"] ")
+	WebElement lnk_UnitMaster;
+	
 	
 	public String label_user()
 	{
@@ -45,5 +54,17 @@ public class Homepage extends Basepage{
 	public void click_Logout()
 	{
 		link_logout.click();
+	}
+	public void click_Masterform()
+	{
+		lnk_Masterform.click();
+	}
+	public void click_EquipmentMaster()
+	{
+		lnk_EquipmentMaster.click();
+	}
+	public void click_UnitMaster()
+	{
+		lnk_UnitMaster.click();
 	}
 }

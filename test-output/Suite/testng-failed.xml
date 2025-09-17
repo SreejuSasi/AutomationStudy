@@ -2,20 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <groups>
-      <run>
-        <include name="Negative"/>
-      </run>
-    </groups>
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.login.Verify_loginNegative">
+      <class name="testCases.Master.Verify_UnitPostiviteTest">
         <methods>
-          <include name="BlankUsername"/>
-          <include name="BlankCredential"/>
-          <include name="BlankPassword"/>
-          <include name="WrongCredential"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Verify_UnitMaster"/>
         </methods>
-      </class> <!-- testCases.login.Verify_loginNegative -->
+      </class> <!-- testCases.Master.Verify_UnitPostiviteTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

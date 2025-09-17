@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.Properties;
 
 import org.apache.logging.log4j.Logger;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -79,6 +80,16 @@ public class BaseClass {
 		
 	}
 	
+	public static String RandomNumber()
+	{
+		String randomnumber=RandomStringUtils.randomNumeric(10);
+		return randomnumber;
+	}
+	public static String RandomName()
+	{
+		String randomname=RandomStringUtils.randomAlphabetic(30);
+		return randomname;
+	}
 	
 	
 
