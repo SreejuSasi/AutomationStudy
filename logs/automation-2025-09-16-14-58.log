@@ -1,0 +1,51 @@
+13:24:54.634 [main] INFO  testCases.login.Verify_login - **********Login Successfull*****************
+13:24:54.695 [main] INFO  testCases.login.Verify_login - ---Login Verification completed-----
+13:25:00.761 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+13:25:06.602 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+13:25:12.408 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+13:25:18.096 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:29:00.410 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:29:08.119 [main] INFO  testCases.login.Verify_login - ---Login Verification Started-----
+14:29:13.783 [main] INFO  testCases.login.Verify_login - ----Login Validation Started----
+14:29:13.835 [main] INFO  testCases.login.Verify_login - **********Login Successfull*****************
+14:29:13.838 [main] INFO  testCases.login.Verify_login - ---Login Verification completed-----
+14:29:21.673 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:29:27.437 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:29:33.042 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:29:38.677 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:32:57.039 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:33:03.731 [main] INFO  testCases.login.Verify_login - ---Login Verification Started-----
+14:33:09.287 [main] INFO  testCases.login.Verify_login - ----Login Validation Started----
+14:33:09.375 [main] INFO  testCases.login.Verify_login - **********Login Successfull*****************
+14:33:09.378 [main] INFO  testCases.login.Verify_login - ---Login Verification completed-----
+14:33:15.998 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:33:16.810 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:33:17.462 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:33:17.967 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:34:55.701 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:35:03.025 [main] INFO  testCases.login.Verify_login - ---Login Verification Started-----
+14:35:08.600 [main] INFO  testCases.login.Verify_login - ----Login Validation Started----
+14:35:08.664 [main] INFO  testCases.login.Verify_login - **********Login Successfull*****************
+14:35:08.667 [main] INFO  testCases.login.Verify_login - ---Login Verification completed-----
+14:35:14.343 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:35:15.884 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:35:17.412 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:35:19.194 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:37:14.421 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:45:54.425 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:46:00.930 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:46:02.660 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:46:04.298 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:46:07.137 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:46:58.682 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:47:04.637 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:47:06.206 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:47:07.664 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:47:09.374 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:57:09.314 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:57:14.956 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:57:16.621 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:57:18.119 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:57:40.850 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:57:53.201 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+14:57:59.387 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
