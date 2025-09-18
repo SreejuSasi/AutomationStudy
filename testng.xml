@@ -6,7 +6,7 @@
   <parameter name="os" value="windows"></parameter>
   
     <classes>
-      <class name="testCases.Master.Verify_UnitPostiviteTest"/>
+      <class name="testCases.WorkAlottment.Verify_workalottment"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

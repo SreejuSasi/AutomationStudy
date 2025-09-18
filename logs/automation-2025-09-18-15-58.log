@@ -1,0 +1,82 @@
+14:58:01.241 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:58:02.950 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+14:58:04.522 [main] INFO  testCases.login.Verify_loginNegative - ---Login Verification Started-----
+19:12:49.654 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+19:13:02.237 [main] INFO  testCases.login.Verify_login - ---Login Verification Started-----
+19:13:07.734 [main] INFO  testCases.login.Verify_login - ----Login Validation Started----
+19:13:32.380 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+19:13:37.971 [main] INFO  testCases.login.Verify_login - ---Login Verification Started-----
+19:13:43.392 [main] INFO  testCases.login.Verify_login - ----Login Validation Started----
+19:13:43.438 [main] INFO  testCases.login.Verify_login - **********Login Successfull*****************
+19:13:43.441 [main] INFO  testCases.login.Verify_login - ---Login Verification completed-----
+19:18:57.689 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+19:19:09.998 [main] INFO  testCases.login.Verify_login - ---Login Verification Started-----
+19:19:15.624 [main] INFO  testCases.login.Verify_login - ----Login Validation Started----
+19:19:15.664 [main] INFO  testCases.login.Verify_login - **********Login Successfull*****************
+19:19:15.670 [main] INFO  testCases.login.Verify_login - ---Login Verification completed-----
+14:57:27.488 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+14:57:28.129 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+14:58:29.246 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+14:58:29.792 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:00:26.311 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:00:26.894 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:01:06.277 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:01:06.804 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:08:19.324 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:08:19.974 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:10:18.690 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:10:19.294 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:10:56.834 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:10:57.362 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:12:25.393 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:12:25.974 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+13:30:24.830 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\Mastertest.xml"
+13:30:31.154 [main] INFO  testCases.login.Verify_login - ---Login Verification Started-----
+13:30:36.750 [main] INFO  testCases.login.Verify_login - ----Login Validation Started----
+13:30:36.796 [main] INFO  testCases.login.Verify_login - **********Login Successfull*****************
+13:30:36.798 [main] INFO  testCases.login.Verify_login - ---Login Verification completed-----
+15:02:41.125 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:02:41.872 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:04:36.879 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:04:37.538 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:08:11.394 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:08:12.039 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:09:10.131 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:09:10.816 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:52:44.817 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:53:48.328 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:53:49.108 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:56:10.566 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:56:11.199 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+
+15:57:08.332 [main] DEBUG org.testng.TestNG - suiteXmlPath: "D:\AutomationStudy\testng.xml"
+15:57:08.963 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  D:\AutomationStudy\testng.xml
+

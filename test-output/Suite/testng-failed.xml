@@ -5,13 +5,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.Master.Verify_UnitPostiviteTest">
+      <class name="testCases.WorkAlottment.Verify_workalottment">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="Verify_UnitMaster"/>
+          <include name="verify_alottment"/>
         </methods>
-      </class> <!-- testCases.Master.Verify_UnitPostiviteTest -->
+      </class> <!-- testCases.WorkAlottment.Verify_workalottment -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Loginpage extends Basepage {
-
+	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(3000));
 		public Loginpage(WebDriver driver)
 		{
 			super(driver);
@@ -49,9 +49,9 @@ public class Loginpage extends Basepage {
 		}
 		public boolean display_Alert()
 		{
-			WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(3000));
-			wait.until(ExpectedConditions.visibilityOf(alert_unauthorized));    
-			return alert_unauthorized.isDisplayed();
+			
+			boolean login_alert= wait.until(ExpectedConditions.visibilityOf(alert_unauthorized)).isDisplayed();
+			return login_alert;
 		}
 
 	

@@ -1,10 +1,16 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UnitMaster extends Basepage {
+	
+	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5000));
 
 	public UnitMaster(WebDriver driver) {
 		super(driver);
@@ -24,22 +30,36 @@ public class UnitMaster extends Basepage {
 	@FindBy(xpath="//button[text()=\" Submit\"]")
 	WebElement btn_unitsubmit;
 	
+	@FindBy(xpath="//div[text()=' Saved Successfully ']")
+	WebElement alert_success;
+	
+	@FindBy(xpath="//div[text()=' Duplicate Name Found! ']")
+	WebElement alert_duplicate;
+	
 	
 	public void click_UnitCreate() {
-		btn_createunit.click();
+		wait.until(ExpectedConditions.visibilityOf(btn_createunit)).click();
 	}
 	
 	public void input_Unitid(String Unitid)
 	{
-		txt_unitid.sendKeys(Unitid);
+		wait.until(ExpectedConditions.visibilityOf(txt_unitid)).sendKeys(Unitid); 
 	}
 	public void input_Unitname(String Uname)
 	{
-		txt_unitname.sendKeys(Uname);
+		wait.until(ExpectedConditions.visibilityOf(txt_unitname)).sendKeys(Uname);
 	}
 	public void click_unitsubmit()
 	{
-		btn_unitsubmit.click();
+		wait.until(ExpectedConditions.visibilityOf(btn_unitsubmit)).click();   
+	}
+	public boolean alert_UnitSuccess()
+	{
+		return wait.until(ExpectedConditions.visibilityOf(alert_success)).isDisplayed(); 
+	}
+	public boolean alert_UnitDuplicate()
+	{
+	 return	wait.until(ExpectedConditions.visibilityOf(alert_duplicate)).isDisplayed();  
 	}
 	
 

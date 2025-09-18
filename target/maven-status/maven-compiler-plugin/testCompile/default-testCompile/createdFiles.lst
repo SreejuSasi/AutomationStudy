@@ -1,10 +1,10 @@
 pageObjects\Basepage.class
-baseClass\BaseClass.class
 pageObjects\Loginpage.class
 utilities\Dataproviders.class
+utilities\ExcelUtility.class
+testCases\login\Verify_loginNegative.class
+baseClass\BaseClass.class
 utilities\ExtentReportManager.class
 testCases\login\Verify_login.class
 pageObjects\Homepage.class
-utilities\ExcelUtility.class
-testCases\login\Verify_loginNegative.class
 testCases\Verify_loginDDT.class

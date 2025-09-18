@@ -1,10 +1,16 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Homepage extends Basepage{
+	
+	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(5000));
 
 	public Homepage(WebDriver driver)
 	{
@@ -32,6 +38,8 @@ public class Homepage extends Basepage{
 	@FindBy(xpath="//a[text()=\" Unit \"] ")
 	WebElement lnk_UnitMaster;
 	
+	@FindBy(xpath="//a[@title=\" Job Order Assignment\"]")
+	WebElement lnk_workalott;
 	
 	public String label_user()
 	{
@@ -53,18 +61,22 @@ public class Homepage extends Basepage{
 	
 	public void click_Logout()
 	{
-		link_logout.click();
+		wait.until(ExpectedConditions.visibilityOf(link_logout)).click();     
 	}
 	public void click_Masterform()
 	{
-		lnk_Masterform.click();
+		wait.until(ExpectedConditions.visibilityOf(lnk_Masterform)).click();  
 	}
 	public void click_EquipmentMaster()
 	{
-		lnk_EquipmentMaster.click();
+		wait.until(ExpectedConditions.visibilityOf(lnk_EquipmentMaster)).click();   	
 	}
 	public void click_UnitMaster()
 	{
-		lnk_UnitMaster.click();
+		wait.until(ExpectedConditions.visibilityOf(lnk_UnitMaster)).click();    
+	}
+	public void click_workalottmentlnk()
+	{
+		wait.until(ExpectedConditions.visibilityOf(lnk_workalott)).click();    
 	}
 }

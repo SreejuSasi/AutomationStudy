@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-17T15:12:25 IST" name="Suite" finished-at="2025-09-17T15:12:59 IST" duration-ms="33527">
+  <suite started-at="2025-09-18T17:52:33 IST" name="Suite" finished-at="2025-09-18T17:52:57 IST" duration-ms="24826">
     <groups>
     </groups>
-    <test started-at="2025-09-17T15:12:25 IST" name="Test" finished-at="2025-09-17T15:12:59 IST" duration-ms="33527">
-      <class name="testCases.Master.Verify_UnitPostiviteTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.Master.Verify_UnitPostiviteTest@3d484181]" started-at="2025-09-17T15:12:26 IST" name="setUp" finished-at="2025-09-17T15:12:32 IST" duration-ms="5911" status="PASS">
+    <test started-at="2025-09-18T17:52:33 IST" name="Test" finished-at="2025-09-18T17:52:57 IST" duration-ms="24826">
+      <class name="testCases.WorkAlottment.Verify_workalottment">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.WorkAlottment.Verify_workalottment@3d484181]" started-at="2025-09-18T17:52:33 IST" name="setUp" finished-at="2025-09-18T17:52:38 IST" duration-ms="5786" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Verify_UnitMaster()[pri:0, instance:testCases.Master.Verify_UnitPostiviteTest@3d484181]" started-at="2025-09-17T15:12:32 IST" name="Verify_UnitMaster" finished-at="2025-09-17T15:12:59 IST" duration-ms="27023" status="PASS">
+        <test-method signature="verify_alottment()[pri:0, instance:testCases.WorkAlottment.Verify_workalottment@3d484181]" started-at="2025-09-18T17:52:38 IST" name="verify_alottment" finished-at="2025-09-18T17:52:57 IST" duration-ms="18490" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Verify_UnitMaster -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.Master.Verify_UnitPostiviteTest@3d484181]" started-at="2025-09-17T15:12:59 IST" name="tearDown" finished-at="2025-09-17T15:12:59 IST" duration-ms="459" status="PASS">
+        </test-method> <!-- verify_alottment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.WorkAlottment.Verify_workalottment@3d484181]" started-at="2025-09-18T17:52:57 IST" name="tearDown" finished-at="2025-09-18T17:52:57 IST" duration-ms="489" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.Master.Verify_UnitPostiviteTest -->
+      </class> <!-- testCases.WorkAlottment.Verify_workalottment -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

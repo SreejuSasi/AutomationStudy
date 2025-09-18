@@ -4,14 +4,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import baseClass.BaseClass;
-import pageObjects.Homepage;
 import pageObjects.Loginpage;
 
 public class Verify_loginNegative extends BaseClass {
-
-
-	
-
 
 	@Test
 	public void WrongCredential() throws InterruptedException
